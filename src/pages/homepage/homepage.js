@@ -1,10 +1,11 @@
+// External Imports
 import React from "react";
-
+// Styles
 import "../../styles/homepage.css";
-
+// FontAwsome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong, faCheck } from "@fortawesome/free-solid-svg-icons";
-
+// Imgs
 import ExploreLearning from "../../Assets/images/Explore@2x.png";
 import Transport from "../../Assets/images/TFL@2x.png";
 import Avios from "../../Assets/images/Avios@2x.png";
@@ -19,7 +20,9 @@ import UKBTAwardsWinnerBadge from "../../Assets/images/UKBTAwards-2021-Winner-Ba
 import icoTwitter from "../../Assets/images/ico-twitter@2x.png";
 import LinkedIn from "../../Assets/images/LinkedIn@2x.png";
 import YT from "../../Assets/images/YT@2x.png";
-
+/**
+ * @function Homepage * Component for rendering all Homepage content with footer.
+ */
 const Homepage = () => {
   return (
     <div>

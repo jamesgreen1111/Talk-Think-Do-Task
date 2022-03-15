@@ -1,11 +1,15 @@
+// External Imports
 import React from "react";
+// Styles
 import "./header.css";
-
+// FontAwsome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
-
+//Imgs
 import Logo from "../../Assets/images/logo-ttd-line.svg";
-
+/**
+ * @function Header * Component for rendering Header content
+ */
 const Header = () => {
   return (
     <div class="header-container">
